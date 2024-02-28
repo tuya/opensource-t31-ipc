@@ -1,0 +1,23 @@
+2018-4-11 Jianfang Li <jianfang.li@ingenic.com>
+
+	release Ingenic linux toolchains linux_r3.3.0-gcc540
+
+	* Release linux toolchains gcc5.4.0 + binutils2.25.1 + glibc2.22.
+	+ gdb7.10.50 + cmake3.8.2
+	* Support mips MSA instructions.
+	* Support Ingenic extend MXA instructions.
+	* Support Ingenic extend MXU instructions.
+	* Support Ingenic extend MXU2 instructions.
+	* Support option: march=xburst2 and march=xburst.
+	* Support macro fusion.
+	* Support option "-mslsa", disable LSA generate default.
+	* Disable all scalar and vector fused madd instrucion generate.
+	* Change __builtin_prefetch as schedule barrier.
+
+
+Local Variables:
+mode: change-log
+left-margin: 8
+fill-column: 76
+version-control: never
+End:
